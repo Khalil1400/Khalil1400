@@ -1,18 +1,18 @@
-<img src="assets/profile-banner.svg" width="100%" alt="Khalil Haidar — IT Support, Software and DevOps. An illustration of a container build, health check and persistent storage." />
+<img src="assets/profile-banner.svg" width="100%" alt="Khalil Haidar. Build. Run. Repeat. Animated signals travel from source code to a running container." />
 
 # Khalil Haidar
 
-**Computer Science student at Haigazian University · Beirut, Lebanon**
+**From source code to a running service.**
 
-I bring hands-on IT support experience to software projects, with a growing focus on DevOps and infrastructure. At Korri Star, I maintained **10+ workstations** and used SQL to manage automotive inventory records. I'm looking for a **DevOps or IT operations internship**.
+I build full-stack apps and work on what happens after the code is written: how it starts, how you know it's healthy, and whether the data survives a restart. I'm a CS student at Haigazian University in Beirut, **open to DevOps internships**.
 
 [Connect on LinkedIn](https://www.linkedin.com/in/khalil-haidar-8260283b7) · [Browse my repositories](https://github.com/Khalil1400?tab=repositories)
 
-## Featured build
+## From Dockerfile to running app
 
 ### [Dockerized Student Management App](https://github.com/Khalil1400/website-docker)
 
-A Django app for managing students, courses, and grade reports. The container runs as a **non-root user**, includes a **health check**, and keeps SQLite records in **persistent storage**. The repository includes Docker Compose instructions and a downloadable image for local use.
+One Docker Compose command brings up a Django app for managing students, courses, and grades. The image runs as a **non-root user**, checks that the app responds over HTTP, and keeps SQLite data in a **persistent volume**. There's also a packaged image in Releases.
 
 [Read the setup guide](https://github.com/Khalil1400/website-docker#run-with-docker) · [Inspect the Dockerfile](https://github.com/Khalil1400/website-docker/blob/main/Dockerfile) · [View releases](https://github.com/Khalil1400/website-docker/releases)
 
