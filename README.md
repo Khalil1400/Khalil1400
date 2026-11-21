@@ -1,4 +1,4 @@
-<img src="assets/profile-banner.svg" width="100%" alt="Khalil Haidar. Build. Run. Repeat. Animated signals travel from source code to a running container." />
+<img src="assets/build-run-repeat.svg" width="100%" alt="Khalil Haidar. Build. Run. Repeat. Animated signals travel from source code to a running container." />
 
 # Khalil Haidar
 
