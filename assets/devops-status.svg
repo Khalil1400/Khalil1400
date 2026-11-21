@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="36" viewBox="0 0 284 36">
+  <title>Open to DevOps internships</title>
+  <style>
+    .ring { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+    .cursor { animation: blink 1.2s steps(2, jump-none) infinite; }
+    @keyframes pulse {
+      0% { opacity: .9; transform: scale(.75); }
+      75%, 100% { opacity: 0; transform: scale(1.75); }
+    }
+    @keyframes blink { 50% { opacity: .2; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ring, .cursor { animation: none; }
+      .ring { opacity: .4; }
+    }
+  </style>
+  <rect x=".5" y=".5" width="283" height="35" rx="5" fill="#14201c" stroke="#426f5c"/>
+  <circle class="ring" cx="18" cy="18" r="6" fill="none" stroke="#96ffd0"/>
+  <circle cx="18" cy="18" r="3.5" fill="#96ffd0"/>
+  <text x="34" y="23" fill="#c7ffe2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">OPEN TO DEVOPS INTERNSHIPS</text>
+  <rect class="cursor" x="263" y="12" width="5" height="13" fill="#96ffd0"/>
+</svg>
